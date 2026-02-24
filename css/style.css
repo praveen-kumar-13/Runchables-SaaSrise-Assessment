@@ -11,6 +11,11 @@ body {
     background: #f7f7f7;
 }
 
+a,
+button:hover {
+    cursor: pointer;
+}
+
 /* NAVBAR */
 .navbar {
     display: flex;
@@ -436,6 +441,40 @@ body {
     }
 }
 
+
+/* VETTX */
+
+.vettx {
+    margin: 50px 0;
+}
+
+.vettx-box {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.vettx-box img {
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .vettx-box {
+        width: 47%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .vettx-box img {
+        width: 200px;
+    }
+
+}
 
 /* YOUTUBE */
 #youtube {
