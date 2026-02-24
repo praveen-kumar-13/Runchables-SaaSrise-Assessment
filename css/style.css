@@ -1629,10 +1629,16 @@ footer {
 
 .corner-glow {
     position: absolute;
+<<<<<<< HEAD
     bottom: 50px;
     right: -800px;
     width: 1200px;
     height: 1200px;
+=======
+    right: -580px;
+    width: 800px;
+    height: 800px;
+>>>>>>> 3c67f504d66642bef40f0945f011dd23a90da78f
     border-radius: 50%;
     background: radial-gradient(circle,
             rgba(255, 80, 80, 0.5),
@@ -1644,7 +1650,10 @@ footer {
     overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3c67f504d66642bef40f0945f011dd23a90da78f
 .footer-container {
     display: flex;
     justify-content: space-between;
